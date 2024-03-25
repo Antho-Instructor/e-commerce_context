@@ -2,17 +2,17 @@
 	"products": [
 		{
 			"id": 1,
-			"name": "LEGO City Fire Brigade",
-			"description": "Set de jeu LEGO avec camion de pompier et b\u00e2timent en feu.",
+			"name": "LEGO Set 1",
+			"description": "Description for LEGO Set 1",
 			"price": 59.99,
 			"image": "url_de_l_image_1"
 		},
 		{
 			"id": 2,
-			"name": "LEGO Star Wars Millennium Falcon",
-			"description": "R\u00e9plique d\u00e9taill\u00e9e du Millennium Falcon de Star Wars.",
+			"name": "LEGO Set 2",
+			"description": "Description for LEGO Set 2",
 			"price": 159.99,
-			"image": "url_de_l_image_2"
+			"image": "url_de_l_image_5"
 		},
 		{
 			"id": 3,

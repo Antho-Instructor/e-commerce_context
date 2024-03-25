@@ -1,0 +1,38 @@
+/**
+ * Global styles
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #333;
+	--secondary-color: #f5f5f5;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: var(--secondary-color);
+}
+
+/* Path: src/components/Navbar.js */
+/**
+ * Navbar styles
+ */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 10px;
+}
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+	gap: 10px;
+}
