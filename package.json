@@ -5,6 +5,7 @@
 	"description": "A simple e-commerce website to learn how to use react's hook context",
 	"type": "module",
 	"scripts": {
+		"start": "concurrently --names \"SERVER,VITE\" --prefix-colors \"green,cyan\" --prefix name \"npm run db\" \"npm run dev\"",
 		"db": "json-server --watch db.json --port 3001",
 		"dev": "vite",
 		"build": "vite build",
@@ -20,6 +21,7 @@
 		"@types/react": "^18.2.66",
 		"@types/react-dom": "^18.2.22",
 		"@vitejs/plugin-react": "^4.2.1",
+		"concurrently": "^8.2.2",
 		"eslint": "^8.57.0",
 		"eslint-plugin-react": "^7.34.1",
 		"eslint-plugin-react-hooks": "^4.6.0",
