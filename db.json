@@ -1,0 +1,204 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "LEGO City Fire Brigade",
+			"description": "Set de jeu LEGO avec camion de pompier et b\u00e2timent en feu.",
+			"price": 59.99,
+			"image": "url_de_l_image_1"
+		},
+		{
+			"id": 2,
+			"name": "LEGO Star Wars Millennium Falcon",
+			"description": "R\u00e9plique d\u00e9taill\u00e9e du Millennium Falcon de Star Wars.",
+			"price": 159.99,
+			"image": "url_de_l_image_2"
+		},
+		{
+			"id": 3,
+			"name": "LEGO Set 3",
+			"description": "Description for LEGO Set 3",
+			"price": 26,
+			"image": "url_de_l_image_3"
+		},
+		{
+			"id": 4,
+			"name": "LEGO Set 4",
+			"description": "Description for LEGO Set 4",
+			"price": 28,
+			"image": "url_de_l_image_4"
+		},
+		{
+			"id": 5,
+			"name": "LEGO Set 5",
+			"description": "Description for LEGO Set 5",
+			"price": 30,
+			"image": "url_de_l_image_5"
+		},
+		{
+			"id": 6,
+			"name": "LEGO Set 6",
+			"description": "Description for LEGO Set 6",
+			"price": 32,
+			"image": "url_de_l_image_6"
+		},
+		{
+			"id": 7,
+			"name": "LEGO Set 7",
+			"description": "Description for LEGO Set 7",
+			"price": 34,
+			"image": "url_de_l_image_7"
+		},
+		{
+			"id": 8,
+			"name": "LEGO Set 8",
+			"description": "Description for LEGO Set 8",
+			"price": 36,
+			"image": "url_de_l_image_8"
+		},
+		{
+			"id": 9,
+			"name": "LEGO Set 9",
+			"description": "Description for LEGO Set 9",
+			"price": 38,
+			"image": "url_de_l_image_9"
+		},
+		{
+			"id": 10,
+			"name": "LEGO Set 10",
+			"description": "Description for LEGO Set 10",
+			"price": 40,
+			"image": "url_de_l_image_10"
+		},
+		{
+			"id": 11,
+			"name": "LEGO Set 11",
+			"description": "Description for LEGO Set 11",
+			"price": 42,
+			"image": "url_de_l_image_11"
+		},
+		{
+			"id": 12,
+			"name": "LEGO Set 12",
+			"description": "Description for LEGO Set 12",
+			"price": 44,
+			"image": "url_de_l_image_12"
+		},
+		{
+			"id": 13,
+			"name": "LEGO Set 13",
+			"description": "Description for LEGO Set 13",
+			"price": 46,
+			"image": "url_de_l_image_13"
+		},
+		{
+			"id": 14,
+			"name": "LEGO Set 14",
+			"description": "Description for LEGO Set 14",
+			"price": 48,
+			"image": "url_de_l_image_14"
+		},
+		{
+			"id": 15,
+			"name": "LEGO Set 15",
+			"description": "Description for LEGO Set 15",
+			"price": 50,
+			"image": "url_de_l_image_15"
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"name": "Alice Dupont",
+			"email": "alice@example.com"
+		},
+		{
+			"id": 2,
+			"name": "Bob Martin",
+			"email": "bob@example.com"
+		},
+		{
+			"id": 3,
+			"name": "User 3",
+			"email": "user3@example.com"
+		},
+		{
+			"id": 4,
+			"name": "User 4",
+			"email": "user4@example.com"
+		},
+		{
+			"id": 5,
+			"name": "User 5",
+			"email": "user5@example.com"
+		}
+	],
+	"orders": [
+		{
+			"id": 1,
+			"userId": 1,
+			"products": [1, 2],
+			"total": 219.98
+		},
+		{
+			"id": 2,
+			"userId": 3,
+			"products": [1, 2, 3],
+			"total": 80
+		},
+		{
+			"id": 3,
+			"userId": 4,
+			"products": [1, 2, 3, 4],
+			"total": 95
+		},
+		{
+			"id": 4,
+			"userId": 5,
+			"products": [1, 2, 3, 4, 5],
+			"total": 110
+		},
+		{
+			"id": 5,
+			"userId": 1,
+			"products": [1],
+			"total": 125
+		},
+		{
+			"id": 6,
+			"userId": 2,
+			"products": [1, 2],
+			"total": 140
+		},
+		{
+			"id": 7,
+			"userId": 3,
+			"products": [1, 2, 3],
+			"total": 155
+		},
+		{
+			"id": 8,
+			"userId": 4,
+			"products": [1, 2, 3, 4],
+			"total": 170
+		},
+		{
+			"id": 9,
+			"userId": 5,
+			"products": [1, 2, 3, 4, 5],
+			"total": 185
+		},
+		{
+			"id": 10,
+			"userId": 1,
+			"products": [1],
+			"total": 200
+		},
+		{
+			"id": 11,
+			"userId": 2,
+			"products": [1, 2],
+			"total": 215
+		}
+	]
+}
