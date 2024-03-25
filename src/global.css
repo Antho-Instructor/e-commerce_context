@@ -4,11 +4,16 @@
 
 * {
 	box-sizing: border-box;
+	/**
+	 * If you want to debug your css, uncomment the line ⬇️
+	 */
+	/* border: 1px solid red; */
 }
 
 :root {
 	--primary-color: #333;
 	--secondary-color: #f5f5f5;
+	--accent-color: #f1356d;
 }
 
 body {
@@ -18,7 +23,16 @@ body {
 	background-color: var(--secondary-color);
 }
 
-/* Path: src/components/Navbar.js */
+a {
+	text-decoration: var(--accent-color) wavy underline;
+	color: inherit;
+}
+
+a:hover {
+	color: var(--accent-color);
+}
+
+/* Path: src/components/Navbar.jsx */
 /**
  * Navbar styles
  */
@@ -28,11 +42,88 @@ body {
 	justify-content: space-between;
 	background-color: var(--primary-color);
 	color: #fff;
-	padding: 10px;
+	padding: 10px 15px;
 }
 
 .navbar ul {
 	display: flex;
 	list-style: none;
 	gap: 10px;
+}
+
+/* Path: src/App.jsx */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	min-height: 100vh;
+	padding: 1rem 3rem;
+}
+
+.products_list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 1rem;
+	list-style: none;
+}
+
+.products_list img {
+	width: 100%;
+}
+
+.product_detail {
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product_detail h3 {
+	color: var(--accent-color);
+}
+
+.product_detail_desc {
+	color: var(--primary-color);
+}
+
+.product_detail button {
+	background-color: var(--accent-color);
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.product_detail button:hover {
+	background-color: #891437;
+}
+
+.product_detail button:active {
+	animation: click 0.3s;
+}
+
+@keyframes click {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/* Path: src/components/Footer.jsx */
+
+footer {
+	background-color: var(--primary-color);
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top: auto;
+	margin-bottom: 0;
 }

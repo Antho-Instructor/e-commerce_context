@@ -2,108 +2,108 @@
 	"products": [
 		{
 			"id": 1,
-			"name": "LEGO Set 1",
-			"description": "Description for LEGO Set 1",
+			"name": "Product Set 1",
+			"description": "Description for Product Set 1",
 			"price": 59.99,
-			"image": "url_de_l_image_1"
+			"image": "https://picsum.photos/500/300?random=1"
 		},
 		{
 			"id": 2,
-			"name": "LEGO Set 2",
-			"description": "Description for LEGO Set 2",
+			"name": "Product Set 2",
+			"description": "Description for Product Set 2",
 			"price": 159.99,
-			"image": "url_de_l_image_5"
+			"image": "https://picsum.photos/500/300?random=2"
 		},
 		{
 			"id": 3,
-			"name": "LEGO Set 3",
-			"description": "Description for LEGO Set 3",
+			"name": "Product Set 3",
+			"description": "Description for Product Set 3",
 			"price": 26,
-			"image": "url_de_l_image_3"
+			"image": "https://picsum.photos/500/300?random=3"
 		},
 		{
 			"id": 4,
-			"name": "LEGO Set 4",
-			"description": "Description for LEGO Set 4",
+			"name": "Product Set 4",
+			"description": "Description for Product Set 4",
 			"price": 28,
-			"image": "url_de_l_image_4"
+			"image": "https://picsum.photos/500/300?random=4"
 		},
 		{
 			"id": 5,
-			"name": "LEGO Set 5",
-			"description": "Description for LEGO Set 5",
+			"name": "Product Set 5",
+			"description": "Description for Product Set 5",
 			"price": 30,
-			"image": "url_de_l_image_5"
+			"image": "https://picsum.photos/500/300?random=5"
 		},
 		{
 			"id": 6,
-			"name": "LEGO Set 6",
-			"description": "Description for LEGO Set 6",
+			"name": "Product Set 6",
+			"description": "Description for Product Set 6",
 			"price": 32,
-			"image": "url_de_l_image_6"
+			"image": "https://picsum.photos/500/300?random=6"
 		},
 		{
 			"id": 7,
-			"name": "LEGO Set 7",
-			"description": "Description for LEGO Set 7",
+			"name": "Product Set 7",
+			"description": "Description for Product Set 7",
 			"price": 34,
-			"image": "url_de_l_image_7"
+			"image": "https://picsum.photos/500/300?random=7"
 		},
 		{
 			"id": 8,
-			"name": "LEGO Set 8",
-			"description": "Description for LEGO Set 8",
+			"name": "Product Set 8",
+			"description": "Description for Product Set 8",
 			"price": 36,
-			"image": "url_de_l_image_8"
+			"image": "https://picsum.photos/500/300?random=8"
 		},
 		{
 			"id": 9,
-			"name": "LEGO Set 9",
-			"description": "Description for LEGO Set 9",
+			"name": "Product Set 9",
+			"description": "Description for Product Set 9",
 			"price": 38,
-			"image": "url_de_l_image_9"
+			"image": "https://picsum.photos/500/300?random=9"
 		},
 		{
 			"id": 10,
-			"name": "LEGO Set 10",
-			"description": "Description for LEGO Set 10",
+			"name": "Product Set 10",
+			"description": "Description for Product Set 10",
 			"price": 40,
-			"image": "url_de_l_image_10"
+			"image": "https://picsum.photos/500/300?random=10"
 		},
 		{
 			"id": 11,
-			"name": "LEGO Set 11",
-			"description": "Description for LEGO Set 11",
+			"name": "Product Set 11",
+			"description": "Description for Product Set 11",
 			"price": 42,
-			"image": "url_de_l_image_11"
+			"image": "https://picsum.photos/500/300?random=11"
 		},
 		{
 			"id": 12,
-			"name": "LEGO Set 12",
-			"description": "Description for LEGO Set 12",
+			"name": "Product Set 12",
+			"description": "Description for Product Set 12",
 			"price": 44,
-			"image": "url_de_l_image_12"
+			"image": "https://picsum.photos/500/300?random=12"
 		},
 		{
 			"id": 13,
-			"name": "LEGO Set 13",
-			"description": "Description for LEGO Set 13",
+			"name": "Product Set 13",
+			"description": "Description for Product Set 13",
 			"price": 46,
-			"image": "url_de_l_image_13"
+			"image": "https://picsum.photos/500/300?random=13"
 		},
 		{
 			"id": 14,
-			"name": "LEGO Set 14",
-			"description": "Description for LEGO Set 14",
+			"name": "Product Set 14",
+			"description": "Description for Product Set 14",
 			"price": 48,
-			"image": "url_de_l_image_14"
+			"image": "https://picsum.photos/500/300?random=14"
 		},
 		{
 			"id": 15,
-			"name": "LEGO Set 15",
-			"description": "Description for LEGO Set 15",
+			"name": "Product Set 15",
+			"description": "Description for Product Set 15",
 			"price": 50,
-			"image": "url_de_l_image_15"
+			"image": "https://picsum.photos/500/300?random=15"
 		}
 	],
 	"users": [

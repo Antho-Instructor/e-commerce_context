@@ -1,10 +1,16 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Products from "./components/Products";
 
 function App() {
 	return (
 		<>
 			<Navbar />
-			<h1>cou</h1>
+			<main className="container">
+				<h1>Bienvenue sur mon site e-commerce!</h1>
+				<Products />
+			</main>
+			<Footer />
 		</>
 	);
 }
