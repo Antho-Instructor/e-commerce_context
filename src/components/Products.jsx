@@ -19,7 +19,7 @@ function Products() {
 			<h2>Tous nos produits</h2>
 			<ul className="products_list">
 				{products.map((product) => (
-					<Product key={product.key} {...product} />
+					<Product key={product.id} {...product} />
 				))}
 			</ul>
 		</section>

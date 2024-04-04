@@ -24,7 +24,7 @@ body {
 }
 
 a {
-	text-decoration: var(--accent-color) wavy underline;
+	text-decoration: var(--accent-color) underline;
 	color: inherit;
 }
 
@@ -115,6 +115,16 @@ a:hover {
 	100% {
 		transform: scale(1);
 	}
+}
+
+/* Path: src/pages/NotFound.jsx */
+
+.notFound {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Path: src/components/Footer.jsx */
