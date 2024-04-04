@@ -4,7 +4,7 @@
 			"id": 1,
 			"name": "Product Set 1",
 			"description": "Description for Product Set 1",
-			"categorie": "game",
+			"category": "game",
 			"price": 59,
 			"image": "https://picsum.photos/500/300?random=1"
 		},
@@ -12,7 +12,7 @@
 			"id": 2,
 			"name": "Product Set 2",
 			"description": "Description for Product Set 2",
-			"categorie": "game",
+			"category": "game",
 			"price": 159,
 			"image": "https://picsum.photos/500/300?random=2"
 		},
@@ -20,7 +20,7 @@
 			"id": 3,
 			"name": "Product Set 3",
 			"description": "Description for Product Set 3",
-			"categorie": "game",
+			"category": "game",
 			"price": 26,
 			"image": "https://picsum.photos/500/300?random=3"
 		},
@@ -28,7 +28,7 @@
 			"id": 4,
 			"name": "Product Set 4",
 			"description": "Description for Product Set 4",
-			"categorie": "game",
+			"category": "game",
 			"price": 28,
 			"image": "https://picsum.photos/500/300?random=4"
 		},
@@ -36,7 +36,7 @@
 			"id": 5,
 			"name": "Product Set 5",
 			"description": "Description for Product Set 5",
-			"categorie": "book",
+			"category": "book",
 			"price": 30,
 			"image": "https://picsum.photos/500/300?random=5"
 		},
@@ -44,7 +44,7 @@
 			"id": 6,
 			"name": "Product Set 6",
 			"description": "Description for Product Set 6",
-			"categorie": "book",
+			"category": "book",
 			"price": 32,
 			"image": "https://picsum.photos/500/300?random=6"
 		},
@@ -52,7 +52,7 @@
 			"id": 7,
 			"name": "Product Set 7",
 			"description": "Description for Product Set 7",
-			"categorie": "book",
+			"category": "book",
 			"price": 34,
 			"image": "https://picsum.photos/500/300?random=7"
 		},
@@ -60,7 +60,7 @@
 			"id": 8,
 			"name": "Product Set 8",
 			"description": "Description for Product Set 8",
-			"categorie": "furniture",
+			"category": "furniture",
 			"price": 36,
 			"image": "https://picsum.photos/500/300?random=8"
 		},
@@ -68,7 +68,7 @@
 			"id": 9,
 			"name": "Product Set 9",
 			"description": "Description for Product Set 9",
-			"categorie": "furniture",
+			"category": "furniture",
 			"price": 38,
 			"image": "https://picsum.photos/500/300?random=9"
 		},
@@ -76,7 +76,7 @@
 			"id": 10,
 			"name": "Product Set 10",
 			"description": "Description for Product Set 10",
-			"categorie": "furniture",
+			"category": "furniture",
 			"price": 40,
 			"image": "https://picsum.photos/500/300?random=10"
 		},
@@ -84,7 +84,7 @@
 			"id": 11,
 			"name": "Product Set 11",
 			"description": "Description for Product Set 11",
-			"categorie": "furniture",
+			"category": "furniture",
 			"price": 42,
 			"image": "https://picsum.photos/500/300?random=11"
 		},
@@ -92,7 +92,7 @@
 			"id": 12,
 			"name": "Product Set 12",
 			"description": "Description for Product Set 12",
-			"categorie": "furniture",
+			"category": "furniture",
 			"price": 44,
 			"image": "https://picsum.photos/500/300?random=12"
 		},
@@ -100,7 +100,7 @@
 			"id": 13,
 			"name": "Product Set 13",
 			"description": "Description for Product Set 13",
-			"categorie": "book",
+			"category": "book",
 			"price": 46,
 			"image": "https://picsum.photos/500/300?random=13"
 		},
@@ -108,7 +108,7 @@
 			"id": 14,
 			"name": "Product Set 14",
 			"description": "Description for Product Set 14",
-			"categorie": "book",
+			"category": "book",
 			"price": 48,
 			"image": "https://picsum.photos/500/300?random=14"
 		},
@@ -116,7 +116,7 @@
 			"id": 15,
 			"name": "Product Set 15",
 			"description": "Description for Product Set 15",
-			"categorie": "book",
+			"category": "book",
 			"price": 50,
 			"image": "https://picsum.photos/500/300?random=15"
 		}

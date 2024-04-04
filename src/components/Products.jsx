@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Product from "./Product";
+import Filtre from "./Filtre";
 
 function Products() {
 	const [products, setProducts] = useState([]);
@@ -17,6 +18,7 @@ function Products() {
 	return (
 		<section>
 			<h2>Tous nos produits</h2>
+			<Filtre setProducts={setProducts} />
 			<ul className="products_list">
 				{products.map((product) => (
 					<Product key={product.id} {...product} />

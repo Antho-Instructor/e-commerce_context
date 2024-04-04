@@ -127,6 +127,17 @@ a:hover {
 	align-items: center;
 }
 
+#filter {
+	width: 120px;
+	height: 30px;
+	border: 1px solid #999;
+	font-size: 1.2rem;
+	color: var(--accent-color);
+	background-color: #eee;
+	border-radius: 5px;
+	box-shadow: 4px 4px #ccc;
+}
+
 /* Path: src/components/Footer.jsx */
 
 footer {
