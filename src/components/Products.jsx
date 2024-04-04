@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Product from "./Product";
 import Filtre from "./Filtre";
 
-function Products() {
+function Products({ carts, setCarts }) {
 	const [products, setProducts] = useState([]);
 
 	async function fetchProducts() {
@@ -21,7 +21,12 @@ function Products() {
 			<Filtre setProducts={setProducts} />
 			<ul className="products_list">
 				{products.map((product) => (
-					<Product key={product.id} {...product} />
+					<Product
+						key={product.id}
+						product={product}
+						carts={carts}
+						setCarts={setCarts}
+					/>
 				))}
 			</ul>
 		</section>
